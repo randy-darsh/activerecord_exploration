@@ -1,0 +1,5 @@
+<% @horses.each do |horse| %>
+NAME: <b><%= horse.name %></b><br>
+AGE: <%= horse.age %><br>
+TOTAL WINNINGS: $<%= horse.total_winnings.to_f %><br><br>
+<% end %>
